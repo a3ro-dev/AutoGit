@@ -3,7 +3,7 @@ import platform
 import subprocess
 import sys
 import openai
-import keys
+import utils.keys as keys
 
 openai.api_key = keys.api
 

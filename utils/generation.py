@@ -1,5 +1,5 @@
 import openai
-import keys
+import utils.keys as keys
 
 openai.api_key = keys.api
 
