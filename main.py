@@ -94,7 +94,7 @@ class AutoGit:
                     if any(fnmatch.fnmatch(file, pattern) for pattern in ignored_patterns):
                         continue
 
-                    with open(file_path, "r") as f:
+                    with open(file_path, "r", encoding="utf-8") as f:
                         file_content = f.read()
 
                     output += f"\n{file_path}\n{file_content}\n"
