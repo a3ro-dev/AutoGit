@@ -8,7 +8,9 @@ import fnmatch
 
 
 class AutoGit:
-
+    """
+    Automation Of Git, Implemented Using `subprocess`
+    """
     @staticmethod
     def createRepo():
         """
